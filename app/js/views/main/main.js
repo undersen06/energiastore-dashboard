@@ -1,19 +1,17 @@
-"use strict";
+'use strict';
 
 /*
 =============================================================================
 CONTROLLER DEFINITION
 =============================================================================
 */
-(function() {
-  this.app.controller("BaseController", ["$scope","$Auth",
-  function($scope,$Auth) {
+(function () {
+	this.app.controller('MainController', ['$scope', '$Regions',
+		function ($scope, $Regions) {
 
-debugger;
-    console.log("hola")
-
+			
 
 
-
-  }]);
-}).call(this);
+		}
+	]);
+}).call();

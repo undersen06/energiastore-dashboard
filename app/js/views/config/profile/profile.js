@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*
 =============================================================================
@@ -6,9 +6,10 @@ CONTROLLER DEFINITION
 =============================================================================
 */
 (function() {
-  this.app.controller("UsersController", ["$scope",
-  function($scope) {
+	this.app.controller('ProfileController', ['$scope',
+		function($scope) {
 
 
-  }]);
-}).call(this);
+
+		}]);
+}).call();
